@@ -21,3 +21,4 @@ class Solution:
                 
             max_area = max(area, max_area)  
         return max_area
+        
