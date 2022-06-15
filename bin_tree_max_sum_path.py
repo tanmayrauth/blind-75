@@ -3,7 +3,7 @@ So here we need is Recursion + res value
 
 Recursion Logic:
     Base: return 0 when None
-    Run for left and right recursion
+    Run for left and right recursion and keep their values(i.e return from sub problem)
     Compare child sum values with current node value
     Checking a scenario of the current node becomes common node
     Checking max with global res values and current ans
