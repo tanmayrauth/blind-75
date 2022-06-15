@@ -3,7 +3,7 @@ Understand recursion here
 Base:
     If None then return 0
 Induction + Hypothesis:
-    You need left and right values. Take make of it and add 1 to it.
+    You need left and right values recursive call values. Then take max amongst both of them and add 1 to it.
 
 """
 
