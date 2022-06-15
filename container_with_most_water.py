@@ -5,7 +5,6 @@ Now for next cycle the logic is that you will remove the one which had less heig
 
 """
 
-
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         
