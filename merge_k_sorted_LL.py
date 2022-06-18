@@ -1,5 +1,8 @@
 """
 Heap + LL next ptr combination
+
+divied and conquer, merge lists, N totalnodes, k-lists, O(N*logk). 
+For each list, find min val, insert it into list, use priorityQ to optimize finding min O(N*logk)
 """
  
 class Solution:
