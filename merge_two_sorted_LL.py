@@ -4,8 +4,9 @@ Intuition is that since both the LL is sorted we jst need to just compare nodes 
 
 First if we create a dummy node which will work as current ptr then using while loop we can set its next element by
 Comparing the 2 linked list and picking the smallest node from it.
-4 coniditons are used to select the smallest next node.
 
+4 coniditons are used to select the smallest next node.
+if not list1:, if not list2:, if list1.val < list2.val:, else:
 """
 
 class Solution:
