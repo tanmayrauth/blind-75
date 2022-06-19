@@ -6,3 +6,4 @@ class Solution:
                 s1.append(key.lower())
         
         return s1 == s1[::-1] 
+        
