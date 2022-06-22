@@ -1,5 +1,8 @@
 """
+It is actualy a king of no of island problem. 
+Jst here it will be one loop whereas in matrix ther will be 2 loop required.
 This problem is solved using DFS. We can also solve this using Union Find algorithm.
+
 Kind of similar to LC 547
 """
 
