@@ -17,18 +17,18 @@ class Solution:
             adjacency_list[edge[0]].append(edge[1])
             adjacency_list[edge[1]].append(edge[0])
              
-        for vertice in range(n):            
-            if vertice not in visited:
-                self.dfs(vertice, adjacency_list, visited)
+        for node in range(n):            
+            if node not in visited:
+                self.dfs(node, adjacency_list, visited)
                 count += 1
         
         return count
     
     
-    def dfs(self, vertice, adjacency_list, visited):        
-        visited.add(vertice)
+    def dfs(self, node, adjacency_list, visited):        
+        visited.add(node)
         
-        for adj_vertice in adjacency_list[vertice]:
-            if adj_vertice not in visited:
-                self.dfs(adj_vertice, adjacency_list, visited)   
+        for adj_node in adjacency_list[node]:
+            if adj_node not in visited:
+                self.dfs(adj_node, adjacency_list, visited)   
                 
