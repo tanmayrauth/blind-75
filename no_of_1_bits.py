@@ -14,3 +14,15 @@ class Solution:
             n = n >> 1
             
         return res
+
+
+# This will run much faster because we are subtracting the right most bit and making it 0. SO incase if all the left bit are 0 then our loop will jst run once.
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        
+        res = 0
+        while n:
+            n &= (n-1)
+            res += 1
+            
+        return res
